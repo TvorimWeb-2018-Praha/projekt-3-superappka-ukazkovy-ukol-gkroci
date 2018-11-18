@@ -31,3 +31,117 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+.navigace {
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navigace a {
+    display: block;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: #25133d;
+}
+
+.navigace a:hover {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.vyrazne {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.hlavni_obrazek {
+    position: relative;
+    background-image: url(images/pozadi.jpg); position: bottom;
+    height: 430px;
+}
+
+.nadpis {
+    margin: 0;
+    padding-left: 35px;
+    padding-top: 35px;
+    color: white;
+    font-size: 80px;
+    font-weight: 300;
+}
+
+.popis {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding-left: 35px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.tlacitka {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    padding-left: 35px;
+}
+
+.tlacitka a {
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.tlacitka a:hover {
+    background-color:#48418e;
+}
+.telefon {
+    display: block;
+    position: absolute;
+    width: 400px;
+    top: 34.5px;
+    right: 0px;
+}
+
+.sloupce img {
+    width: 100px;
+}
+
+.sloupce {
+    padding-top: 40px;
+    display: flex;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+h2 {
+    color: #48418e;
+}
+
+.sloupce div {
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #25133d;
+}
+
+.paticka {
+    text-align: center;
+    background-color: #48418e;
+    color: white;
+    padding-top: px;
+    padding: 0;
+    margin: 0;
+}
+
+.paticka p  {
+    padding: 10px;
+}
