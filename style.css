@@ -107,8 +107,8 @@ body {
     display: block;
     position: absolute;
     width: 400px;
-    top: 34.5px;
-    right: 0px;
+    bottom: 0;
+    right: 0;
 }
 
 .sloupce img {
