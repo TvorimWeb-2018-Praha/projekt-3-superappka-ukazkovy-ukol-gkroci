@@ -58,6 +58,7 @@ body {
 .hlavni_obrazek {
     position: relative;
     background-image: url(images/pozadi.jpg); position: bottom;
+    background-size: cover;
     height: 430px;
 }
 
